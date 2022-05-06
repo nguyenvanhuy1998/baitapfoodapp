@@ -23,6 +23,7 @@ const SIZES = {
   radius: 30,
   radius2: 21,
   radius3: 40,
+  radius4: 32,
   padding: 10,
   padding2: 12,
 
@@ -30,11 +31,11 @@ const SIZES = {
   largeTitle: 50,
   h1: 30,
   h2: 22,
-  h3: 20,
+  h3: 12,
   h4: 18,
   body1: 30,
-  body2: 20,
-  body3: 16,
+  body2: 24,
+  body3: 12,
   body4: 14,
   body5: 12,
 
@@ -50,14 +51,20 @@ const FONTS = {
   },
   h1: {fontFamily: 'Roboto-Black', fontSize: SIZES.h1, lineHeight: 36},
   h2: {fontFamily: 'Roboto-Bold', fontSize: SIZES.h2, lineHeight: 30},
-  h3: {fontFamily: 'Roboto-Bold', fontSize: SIZES.h3, lineHeight: 22},
+  h3: {fontFamily: 'Roboto-Medium', fontSize: SIZES.h3},
   h4: {fontFamily: 'Roboto-Bold', fontSize: SIZES.h4, lineHeight: 22},
   h5: {fontFamily: 'Roboto', fontSize: SIZES.body5, fontWeight: '500'},
 
   body1: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body1, lineHeight: 36},
-  body2: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body2, lineHeight: 30},
-  body3: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body3, lineHeight: 22},
+  body2: {fontFamily: 'Roboto', fontSize: SIZES.body2, fontWeight: '500'},
+  body3: {fontFamily: 'Roboto-Medium', fontSize: SIZES.body3},
   body4: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body4, lineHeight: 22},
+  body4_bold: {
+    fontFamily: 'Roboto',
+    fontSize: SIZES.body4,
+    fontWeight: '500',
+  },
+
   body5: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body5, lineHeight: 22},
 };
 const theme = {COLORS, SIZES, FONTS};

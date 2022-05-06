@@ -39,8 +39,11 @@ const Categories = ({categories}) => {
   };
   return (
     <View style={styles.container}>
-      <Text style={styles.container__title}>Main</Text>
-      <Text style={styles.container__title}>Categories</Text>
+      <View style={styles.container_mainCategories}>
+        <Text style={styles.container__title}>Main</Text>
+        <Text style={styles.container__title}>Categories</Text>
+      </View>
+
       <FlatList
         data={categories}
         horizontal
@@ -56,13 +59,16 @@ const Categories = ({categories}) => {
 export default Categories;
 
 const styles = StyleSheet.create({
-  container: {
-    padding: theme.SIZES.base * 2,
+  container: {},
+  container_mainCategories: {
+    paddingLeft: theme.SIZES.base * 2,
+    paddingTop: theme.SIZES.base * 3,
   },
   container__title: {
     ...theme.FONTS.h1,
   },
   container__content: {
+    paddingHorizontal: theme.SIZES.base * 2,
     paddingVertical: theme.SIZES.base * 3,
   },
   shadow: {
