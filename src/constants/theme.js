@@ -21,6 +21,7 @@ const SIZES = {
   base: 8,
   font: 14,
   radius: 30,
+  radius2: 21,
   padding: 10,
   padding2: 12,
 
@@ -50,6 +51,8 @@ const FONTS = {
   h2: {fontFamily: 'Roboto-Bold', fontSize: SIZES.h2, lineHeight: 30},
   h3: {fontFamily: 'Roboto-Bold', fontSize: SIZES.h3, lineHeight: 22},
   h4: {fontFamily: 'Roboto-Bold', fontSize: SIZES.h4, lineHeight: 22},
+  h5: {fontFamily: 'Roboto', fontSize: SIZES.body5, fontWeight: '500'},
+
   body1: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body1, lineHeight: 36},
   body2: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body2, lineHeight: 30},
   body3: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body3, lineHeight: 22},
