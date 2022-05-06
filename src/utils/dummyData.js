@@ -65,6 +65,8 @@ export const foodsData = [
     photo: images.burger_restaurant_1,
     duration: '30 - 45 min',
     priceRating: expensive,
+    price: 12.35,
+    cal: 400,
   },
   {
     id: 2,
@@ -74,6 +76,8 @@ export const foodsData = [
     photo: images.burger_restaurant_2,
     duration: '30 - 45 min',
     priceRating: fairPrice,
+    price: 13.35,
+    cal: 500,
   },
   {
     id: 3,
@@ -83,6 +87,8 @@ export const foodsData = [
     photo: images.pizza,
     duration: '30 - 45 min',
     priceRating: fairPrice,
+    price: 14.35,
+    cal: 600,
   },
   {
     id: 4,
@@ -92,6 +98,8 @@ export const foodsData = [
     photo: images.pizza_restaurant,
     duration: '30 - 45 min',
     priceRating: fairPrice,
+    price: 15.35,
+    cal: 700,
   },
   {
     id: 5,
@@ -101,6 +109,8 @@ export const foodsData = [
     photo: images.sarawak_laksa,
     duration: '30 - 45 min',
     priceRating: fairPrice,
+    price: 16.35,
+    cal: 800,
   },
   {
     id: 6,
@@ -110,6 +120,8 @@ export const foodsData = [
     photo: images.sushi,
     duration: '30 - 45 min',
     priceRating: fairPrice,
+    price: 17.35,
+    cal: 900,
   },
 ];
 

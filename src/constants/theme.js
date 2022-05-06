@@ -38,6 +38,7 @@ const SIZES = {
   body3: 12,
   body4: 14,
   body5: 12,
+  body6: 16,
 
   // app dimensions
   width,
@@ -66,6 +67,7 @@ const FONTS = {
   },
 
   body5: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body5, lineHeight: 22},
+  body6: {fontFamily: 'Roboto', fontSize: SIZES.body6},
 };
 const theme = {COLORS, SIZES, FONTS};
 
