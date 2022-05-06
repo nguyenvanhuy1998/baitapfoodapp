@@ -22,6 +22,7 @@ const SIZES = {
   font: 14,
   radius: 30,
   radius2: 21,
+  radius3: 40,
   padding: 10,
   padding2: 12,
 
