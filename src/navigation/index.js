@@ -1,6 +1,6 @@
 import React from 'react';
 import {Router} from './router';
-import {Map} from '../screens';
+import {FoodDetail, Map} from '../screens';
 import {
   CardStyleInterpolators,
   createStackNavigator,
@@ -17,6 +17,7 @@ const AppNavigation = () => {
   return (
     <Stack.Navigator screenOptions={screenOptions}>
       <Stack.Screen name={Router.RootTab} component={TabBarBottom} />
+      <Stack.Screen name={Router.FoodDetail} component={FoodDetail} />
       <Stack.Screen name={Router.Map} component={Map} />
     </Stack.Navigator>
   );

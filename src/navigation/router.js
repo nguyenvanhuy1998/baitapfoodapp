@@ -1,7 +1,7 @@
 export const Router = {
   RootTab: 'RootTab',
   Home: 'Home',
-  Restaurant: 'Restaurant',
+  FoodDetail: 'FoodDetail',
   Map: 'Map',
   Search: 'Search',
   Like: 'Like',

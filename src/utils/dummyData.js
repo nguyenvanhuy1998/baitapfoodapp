@@ -93,6 +93,24 @@ export const foodsData = [
     duration: '30 - 45 min',
     priceRating: fairPrice,
   },
+  {
+    id: 5,
+    name: 'Best Broccoli Salad',
+    rating: 4.8,
+    categories: [6, 1, 4],
+    photo: images.sarawak_laksa,
+    duration: '30 - 45 min',
+    priceRating: fairPrice,
+  },
+  {
+    id: 6,
+    name: 'Shushi Nigiri',
+    rating: 4.8,
+    categories: [8],
+    photo: images.sushi,
+    duration: '30 - 45 min',
+    priceRating: fairPrice,
+  },
 ];
 
 export default {

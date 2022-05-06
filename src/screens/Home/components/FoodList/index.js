@@ -3,6 +3,7 @@ import React from 'react';
 import {useNavigation} from '@react-navigation/native';
 import {icons} from '../../../../constants';
 import styles from './styles';
+import {Router} from '../../../../navigation/router';
 const FoodList = ({foodList, categories}) => {
   const navigation = useNavigation();
   function getCategoryNameById(id) {
@@ -10,10 +11,10 @@ const FoodList = ({foodList, categories}) => {
     if (category.length > 0) return category[0].name;
     return '';
   }
-  const handleRestaurant = item =>
-    navigation.navigate('Restaurant', {
-      item,
-    });
+  const handleRestaurant = item => {
+    navigation.navigate(Router.FoodDetail, {item});
+  };
+
   const renderItem = ({item}) => {
     return (
       <TouchableOpacity
